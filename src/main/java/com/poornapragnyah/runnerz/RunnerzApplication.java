@@ -32,12 +32,3 @@ public class RunnerzApplication {
     }
 
 }
-
-@RestController
-class HelloController {
-
-    @GetMapping("/")
-    public String greet() {
-        return "HI!";
-    }
-}
